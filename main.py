@@ -11,7 +11,7 @@ def UDPScanner(ip,port,ttl):
         for item in retrans:
             if (str(type(item)) !=" < type ‘NoneType’ > "):
                 UDPScanner(ip, port, ttl)
-            return "Abierto | Filtrado"
+        return "Abierto | Filtrado"
     elif(pudp.haslayer(UDP)):
             return "Abierto"
     elif(pudp.haslayer(ICMP)):
