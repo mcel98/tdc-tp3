@@ -18,7 +18,7 @@ def UDPScanner(ip,port,ttl):
                 if (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) == 3):
                     return "Cerrado"
                 elif (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) in [1, 2, 9, 10,13]):
-                    return "Filtered"
+                    return "Filtrado"
             else:
                 return "CHECK"
 
