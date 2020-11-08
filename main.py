@@ -9,7 +9,7 @@ def UDPScanner(ip,port,ttl):
         for count in range(0, 3):
             retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeou=ttl))
         for item in retrans:
-            if (str(type(item)) !=" < type ‘NoneType’ > "):
+            if (str(type(item)) !="<type 'NoneType'>"):
                 UDPScanner(ip, port, ttl)
         return "Abierto | Filtrado"
     elif(pudp.haslayer(UDP)):
