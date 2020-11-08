@@ -7,7 +7,7 @@ def UDPScanner(ip,port,ttl):
     if (str(type(pudp)) =="<class 'NoneType'>"):
         retrans = []
         for count in range(0, 3):
-            retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeou=ttl))
+            retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeout=ttl))
         for item in retrans:
             if (str(type(item)) !="<class 'NoneType'>"):
                 UDPScanner(ip, port, ttl)
