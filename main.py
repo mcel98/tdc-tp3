@@ -4,7 +4,7 @@ from scapy.layers.inet import IP, ICMP, TCP, UDP
 
 def UDPScanner(ip,port,ttl):
     pudp = sr1(IP(dst=ip)/UDP(dport=i),timeout=10)
-    if (str(type(pudp )) ==" < type ‘NoneType’ > "):
+    if (str(type(pudp )) ==" < type 'NoneType' > "):
         retrans = []
         for count in range(0, 3):
             retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeou=ttl))
@@ -27,10 +27,8 @@ ports = [port for port in range(1, 1025)]
 ip = sys.argv[1]
 for i in ports:
     p = IP(dst=ip)/TCP(dport=i, flags='S')
-    pudp = IP(dst=ip)/UDP(dport=i, flags='S')
     print(i ,end='')
     respTCP = sr1(p, verbose=False, timeout=1.0)
-    respUDP = sr1(pudp, verbose=False, timeout=1.0)
     if respTCP is None:
         print(" filtrado")
     elif respTCP.haslayer(TCP):
