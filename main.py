@@ -3,13 +3,13 @@ from scapy.all import *
 from scapy.layers.inet import IP, ICMP, TCP, UDP
 
 def UDPScanner(ip,port,ttl):
-    pudp = sr1(IP(dst=ip)/UDP(dport=i),timeout=10)
-    if (str(type(pudp )) ==" <type 'NoneType'> "):
+    pudp = sr1(IP(dst=ip)/UDP(dport=port),timeout=10)
+    if (str(type(pudp)) =="<class 'NoneType'>"):
         retrans = []
         for count in range(0, 3):
             retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeou=ttl))
         for item in retrans:
-            if (str(type(item)) !="<type 'NoneType'>"):
+            if (str(type(item)) !="<class 'NoneType'>"):
                 UDPScanner(ip, port, ttl)
         return "Abierto | Filtrado"
     elif(pudp.haslayer(UDP)):
