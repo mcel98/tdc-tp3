@@ -53,7 +53,7 @@ for i in ports:
     print(str(i),UDP_PORT)
     row_data.append(UDP_PORT)
     writer.writerow(row_data)
-    
+
 scannedfile.close()
 
 
