@@ -4,7 +4,7 @@ from scapy.layers.inet import IP, ICMP, TCP, UDP
 
 def UDPScanner(ip,port,ttl):
     pudp = sr1(IP(dst=ip)/UDP(dport=i),timeout=10)
-    if (str(type(pudp )) ==" < type 'NoneType' > "):
+    if (str(type(pudp )) ==" <type 'NoneType'> "):
         retrans = []
         for count in range(0, 3):
             retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeou=ttl))
