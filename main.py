@@ -7,6 +7,7 @@ import csv
 filtrado = 'Filtrado'
 cerrado = 'Cerrado'
 abierto = 'Abierto'
+abierto_filtrado = 'Abierto | Filtrado'
 none = 'none'
 
 def TCPScanner(ip, port):
@@ -32,14 +33,14 @@ def UDPScanner(ip, port, ttl):
         for item in retrans:
             if (str(type(item)) !="<class 'NoneType'>"):
                 UDPScanner(ip, port, ttl)
-        return "Abierto | Filtrado"
+        return abierto_filtrado
     elif(pudp.haslayer(UDP)):
-        return "Abierto"
+        return abierto
     elif(pudp.haslayer(ICMP)):
         if (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) == 3):
-            return "Cerrado"
+            return cerrado
         elif (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) in [1, 2, 9, 10, 13]):
-            return "Filtrado"
+            return filtrado
     else:
         return "CHECK"
 
