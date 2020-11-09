@@ -26,12 +26,13 @@ def TCPScanner(ip, port):
 
 def UDPScanner(ip, port, ttl):
     pudp = sr1(IP(dst=ip)/UDP(dport=port),timeout=10)
-    if (str(type(pudp)) =="<class 'NoneType'>"):
+    print("port ", port, ": ",str(type(pudp)))
+    if (pudp is None):
         retrans = []
         for count in range(0, 3):
             retrans.append(sr1(IP(dst=ip) / UDP(dport=port), timeout=ttl))
         for item in retrans:
-            if (str(type(item)) !="<class 'NoneType'>"):
+            if (item is not None):
                 UDPScanner(ip, port, ttl)
         return abierto_filtrado
     elif(pudp.haslayer(UDP)):
@@ -49,7 +50,7 @@ ip = sys.argv[1]
 
 # csv
 ports = range(1, max_port)
-scannedfile = open('scanned-responses-' + ip + '.csv', 'a', newline='')
+scannedfile = open('scanned-responses-' + ip + '.csv', 'a')
 writer = csv.writer(scannedfile)
 writer.writerow(['port','TCP','TCPflag','UDP'])
 
