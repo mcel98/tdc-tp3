@@ -26,7 +26,6 @@ def TCPScanner(ip, port):
 
 def UDPScanner(ip, port, ttl):
     pudp = sr1(IP(dst=ip)/UDP(dport=port),timeout=10)
-    print("port ", port, ": ",str(type(pudp)))
     if (pudp is None):
         retrans = []
         for count in range(0, 3):
