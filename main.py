@@ -3,7 +3,27 @@ from scapy.all import *
 from scapy.layers.inet import IP, ICMP, TCP, UDP
 import csv
 
-def UDPScanner(ip,port,ttl):
+# constantes del csv
+filtrado = 'Filtrado'
+cerrado = 'Cerrado'
+abierto = 'Abierto'
+none = 'none'
+
+def TCPScanner(ip, port):
+    p = IP(dst=ip) / TCP(dport=port, flags='S')
+    respTCP = sr1(p, verbose=False, timeout=1.0)
+
+    if respTCP is None:
+        return (filtrado, none)
+    elif respTCP.haslayer(TCP):
+        tcp_layer = respTCP.getlayer(TCP)
+        if tcp_layer.flags == 0x12:
+            sr1(IP(dst=ip) / TCP(dport=ports, flags='AR'), verbose = False, timeout = 1)
+            return (abierto, str(tcp_layer.flags))
+        elif tcp_layer.flags == 0x14:
+            return (cerrado, str(tcp_layer.flags))
+
+def UDPScanner(ip, port, ttl):
     pudp = sr1(IP(dst=ip)/UDP(dport=port),timeout=10)
     if (str(type(pudp)) =="<class 'NoneType'>"):
         retrans = []
@@ -14,47 +34,36 @@ def UDPScanner(ip,port,ttl):
                 UDPScanner(ip, port, ttl)
         return "Abierto | Filtrado"
     elif(pudp.haslayer(UDP)):
-            return "Abierto"
+        return "Abierto"
     elif(pudp.haslayer(ICMP)):
-            if (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) == 3):
-                return "Cerrado"
-            elif (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) in [1, 2, 9, 10,13]):
-                return "Filtrado"
+        if (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) == 3):
+            return "Cerrado"
+        elif (int(pudp.getlayer(ICMP).type) == 3 and int(pudp.getlayer(ICMP).code) in [1, 2, 9, 10, 13]):
+            return "Filtrado"
     else:
         return "CHECK"
 
-ports = [port for port in range(1, 1025)]
-scannedfile = open('scannedR-responses.csv', 'a', newline='')
-writer = csv.writer(scannedfile, delimiter=' ', quoting = csv.QUOTE_NONE, escapechar=' ')
-writer.writerow(['port ','TCP ','TCPflag ','UDP '])
-
+max_port = int(sys.argv[2]) + 1 if len(sys.argv) > 2 else 1025
 ip = sys.argv[1]
-for i in ports:
-    row_data = [str(i)]
-    p = IP(dst=ip)/TCP(dport=i, flags='S')
-    print(i ,end='')
-    respTCP = sr1(p, verbose=False, timeout=1.0)
-    if respTCP is None:
-        print(' Filtrado','none')
-        row_data.append('Filtrado ')
-        row_data.append('none ')
-    elif respTCP.haslayer(TCP):
-        tcp_layer = respTCP.getlayer(TCP)
-        if tcp_layer.flags == 0x12:
-            print(" Abierto", tcp_layer.flags)
-            row_data.append('Abierto ')
-            row_data.append(str(tcp_layer.flags) +' ')
-            sr1(IP(dst=ip) / TCP(dport=ports, flags='AR'), verbose = False, timeout = 1)
-        elif 0x14 == tcp_layer.flags:
-            print(" Cerrado", tcp_layer.flags)
-            row_data.append('Cerrado ')
-            row_data.append(str(tcp_layer.flags)+' ')
-    UDP_PORT = UDPScanner(ip,i,10)
-    print(str(i),UDP_PORT)
-    row_data.append(UDP_PORT+' ')
+
+# csv
+ports = range(1, max_port)
+scannedfile = open('scanned-responses-' + ip + '.csv', 'a', newline='')
+writer = csv.writer(scannedfile)
+writer.writerow(['port','TCP','TCPflag','UDP'])
+
+# scanning
+for port in ports:
+    (tcp, tcp_flags) = TCPScanner(ip, port)
+    udp = UDPScanner(ip, port, 10)
+
+    row_data = [str(port)]
+    row_data.append(tcp)
+    row_data.append(tcp_flags)
+    row_data.append(udp)
+
     writer.writerow(row_data)
 
+    print(row_data)
+
 scannedfile.close()
-
-
-
