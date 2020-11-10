@@ -1,0 +1,1025 @@
+port,TCP,TCPflag,UDP
+1,Cerrado,RA,Cerrado
+2,Filtrado,none,Cerrado
+3,Cerrado,RA,Cerrado
+4,Filtrado,none,Cerrado
+5,Filtrado,none,Cerrado
+6,Filtrado,none,Cerrado
+7,Cerrado,RA,Cerrado
+8,Cerrado,RA,Cerrado
+9,Cerrado,RA,Cerrado
+10,Cerrado,RA,Cerrado
+11,Cerrado,RA,Abierto | Filtrado
+12,Cerrado,RA,Abierto | Filtrado
+13,Cerrado,RA,Cerrado
+14,Cerrado,RA,Abierto | Filtrado
+15,Cerrado,RA,Cerrado
+16,Cerrado,RA,Cerrado
+17,Cerrado,RA,Cerrado
+18,Cerrado,RA,Cerrado
+19,Cerrado,RA,Cerrado
+20,Cerrado,RA,Abierto | Filtrado
+21,Cerrado,RA,Cerrado
+22,Cerrado,RA,Cerrado
+23,Cerrado,RA,Cerrado
+24,Cerrado,RA,Cerrado
+25,Cerrado,RA,Cerrado
+26,Cerrado,RA,Cerrado
+27,Cerrado,RA,Cerrado
+28,Cerrado,RA,Cerrado
+29,Cerrado,RA,Abierto | Filtrado
+30,Cerrado,RA,Cerrado
+31,Cerrado,RA,Abierto | Filtrado
+32,Cerrado,RA,Cerrado
+33,Cerrado,RA,Cerrado
+34,Cerrado,RA,Cerrado
+35,Cerrado,RA,Cerrado
+36,Cerrado,RA,Cerrado
+37,Cerrado,RA,Cerrado
+38,Cerrado,RA,Cerrado
+39,Cerrado,RA,Cerrado
+40,Cerrado,RA,Cerrado
+41,Cerrado,RA,Cerrado
+42,Cerrado,RA,Cerrado
+43,Cerrado,RA,Cerrado
+44,Cerrado,RA,Cerrado
+45,Cerrado,RA,Cerrado
+46,Filtrado,none,Abierto | Filtrado
+47,Cerrado,RA,Cerrado
+48,Cerrado,RA,Abierto | Filtrado
+49,Cerrado,RA,Cerrado
+50,Cerrado,RA,Cerrado
+51,Cerrado,RA,Cerrado
+52,Cerrado,RA,Cerrado
+53,Abierto,SA,Abierto | Filtrado
+54,Cerrado,RA,Cerrado
+55,Cerrado,RA,Abierto | Filtrado
+56,Cerrado,RA,Cerrado
+57,Cerrado,RA,Cerrado
+58,Cerrado,RA,Cerrado
+59,Cerrado,RA,Cerrado
+60,Cerrado,RA,Cerrado
+61,Cerrado,RA,Cerrado
+62,Cerrado,RA,Cerrado
+63,Cerrado,RA,Cerrado
+64,Filtrado,none,Cerrado
+65,Cerrado,RA,Abierto | Filtrado
+66,Cerrado,RA,Cerrado
+67,Cerrado,RA,Abierto | Filtrado
+68,Cerrado,RA,Cerrado
+69,Cerrado,RA,Cerrado
+70,Cerrado,RA,Cerrado
+71,Cerrado,RA,Abierto | Filtrado
+72,Cerrado,RA,Cerrado
+73,Cerrado,RA,Cerrado
+74,Cerrado,RA,Cerrado
+75,Cerrado,RA,Cerrado
+76,Cerrado,RA,Cerrado
+77,Cerrado,RA,Cerrado
+78,Cerrado,RA,Cerrado
+79,Cerrado,RA,Cerrado
+80,Abierto,SA,Cerrado
+81,Cerrado,RA,Abierto | Filtrado
+82,Cerrado,RA,Cerrado
+83,Cerrado,RA,Cerrado
+84,Cerrado,RA,Cerrado
+85,Cerrado,RA,Cerrado
+86,Cerrado,RA,Cerrado
+87,Cerrado,RA,Cerrado
+88,Cerrado,RA,Cerrado
+89,Cerrado,RA,Cerrado
+90,Cerrado,RA,Abierto | Filtrado
+91,Cerrado,RA,Cerrado
+92,Cerrado,RA,Cerrado
+93,Cerrado,RA,Cerrado
+94,Cerrado,RA,Cerrado
+95,Cerrado,RA,Cerrado
+96,Cerrado,RA,Cerrado
+97,Cerrado,RA,Cerrado
+98,Cerrado,RA,Cerrado
+99,Cerrado,RA,Cerrado
+100,Cerrado,RA,Cerrado
+101,Cerrado,RA,Cerrado
+102,Cerrado,RA,Cerrado
+103,Cerrado,RA,Cerrado
+104,Cerrado,RA,Cerrado
+105,Cerrado,RA,Cerrado
+106,Cerrado,RA,Cerrado
+107,Cerrado,RA,Cerrado
+108,Cerrado,RA,Cerrado
+109,Cerrado,RA,Cerrado
+110,Cerrado,RA,Cerrado
+111,Cerrado,RA,Cerrado
+112,Cerrado,RA,Cerrado
+113,Cerrado,RA,Cerrado
+114,Cerrado,RA,Cerrado
+115,Cerrado,RA,Cerrado
+116,Filtrado,none,Cerrado
+117,Cerrado,RA,Abierto | Filtrado
+118,Filtrado,none,Cerrado
+119,Cerrado,RA,Cerrado
+120,Cerrado,RA,Cerrado
+121,Cerrado,RA,Cerrado
+122,Cerrado,RA,Cerrado
+123,Cerrado,RA,Cerrado
+124,Filtrado,none,Cerrado
+125,Cerrado,RA,Cerrado
+126,Cerrado,RA,Cerrado
+127,Cerrado,RA,Cerrado
+128,Cerrado,RA,Cerrado
+129,Cerrado,RA,Cerrado
+130,Cerrado,RA,Cerrado
+131,Cerrado,RA,Cerrado
+132,Filtrado,none,Cerrado
+133,Cerrado,RA,Cerrado
+134,Filtrado,none,Cerrado
+135,Cerrado,RA,Cerrado
+136,Cerrado,RA,Cerrado
+137,Cerrado,RA,Cerrado
+138,Cerrado,RA,Cerrado
+139,Cerrado,RA,Cerrado
+140,Cerrado,RA,Cerrado
+141,Cerrado,RA,Abierto | Filtrado
+142,Cerrado,RA,Cerrado
+143,Cerrado,RA,Cerrado
+144,Cerrado,RA,Cerrado
+145,Cerrado,RA,Cerrado
+146,Cerrado,RA,Cerrado
+147,Cerrado,RA,Abierto | Filtrado
+148,Cerrado,RA,Cerrado
+149,Cerrado,RA,Cerrado
+150,Cerrado,RA,Cerrado
+151,Cerrado,RA,Cerrado
+152,Cerrado,RA,Cerrado
+153,Cerrado,RA,Cerrado
+154,Cerrado,RA,Cerrado
+155,Cerrado,RA,Cerrado
+156,Cerrado,RA,Cerrado
+157,Cerrado,RA,Abierto | Filtrado
+158,Cerrado,RA,Cerrado
+159,Cerrado,RA,Cerrado
+160,Cerrado,RA,Cerrado
+161,Cerrado,RA,Cerrado
+162,Cerrado,RA,Cerrado
+163,Cerrado,RA,Cerrado
+164,Cerrado,RA,Cerrado
+165,Cerrado,RA,Cerrado
+166,Cerrado,RA,Cerrado
+167,Cerrado,RA,Cerrado
+168,Cerrado,RA,Abierto | Filtrado
+169,Cerrado,RA,Cerrado
+170,Cerrado,RA,Cerrado
+171,Cerrado,RA,Cerrado
+172,Filtrado,none,Cerrado
+173,Cerrado,RA,Cerrado
+174,Cerrado,RA,Cerrado
+175,Cerrado,RA,Cerrado
+176,Cerrado,RA,Abierto | Filtrado
+177,Cerrado,RA,Cerrado
+178,Cerrado,RA,Cerrado
+179,Cerrado,RA,Cerrado
+180,Cerrado,RA,Cerrado
+181,Cerrado,RA,Cerrado
+182,Cerrado,RA,Cerrado
+183,Cerrado,RA,Cerrado
+184,Cerrado,RA,Cerrado
+185,Cerrado,RA,Cerrado
+186,Cerrado,RA,Cerrado
+187,Cerrado,RA,Abierto | Filtrado
+188,Cerrado,RA,Cerrado
+189,Cerrado,RA,Cerrado
+190,Cerrado,RA,Cerrado
+191,Cerrado,RA,Cerrado
+192,Cerrado,RA,Cerrado
+193,Cerrado,RA,Abierto | Filtrado
+194,Cerrado,RA,Cerrado
+195,Cerrado,RA,Cerrado
+196,Cerrado,RA,Cerrado
+197,Cerrado,RA,Cerrado
+198,Cerrado,RA,Cerrado
+199,Cerrado,RA,Cerrado
+200,Cerrado,RA,Cerrado
+201,Cerrado,RA,Abierto | Filtrado
+202,Cerrado,RA,Cerrado
+203,Cerrado,RA,Abierto | Filtrado
+204,Cerrado,RA,Cerrado
+205,Cerrado,RA,Cerrado
+206,Cerrado,RA,Cerrado
+207,Cerrado,RA,Cerrado
+208,Cerrado,RA,Cerrado
+209,Cerrado,RA,Cerrado
+210,Cerrado,RA,Cerrado
+211,Cerrado,RA,Cerrado
+212,Cerrado,RA,Cerrado
+213,Cerrado,RA,Cerrado
+214,Cerrado,RA,Cerrado
+215,Cerrado,RA,Abierto | Filtrado
+216,Filtrado,none,Cerrado
+217,Cerrado,RA,Cerrado
+218,Cerrado,RA,Cerrado
+219,Cerrado,RA,Cerrado
+220,Cerrado,RA,Cerrado
+221,Cerrado,RA,Cerrado
+222,Cerrado,RA,Cerrado
+223,Cerrado,RA,Cerrado
+224,Cerrado,RA,Cerrado
+225,Cerrado,RA,Abierto | Filtrado
+226,Cerrado,RA,Cerrado
+227,Cerrado,RA,Cerrado
+228,Cerrado,RA,Cerrado
+229,Cerrado,RA,Cerrado
+230,Cerrado,RA,Abierto | Filtrado
+231,Cerrado,RA,Cerrado
+232,Cerrado,RA,Cerrado
+233,Cerrado,RA,Cerrado
+234,Cerrado,RA,Cerrado
+235,Cerrado,RA,Cerrado
+236,Cerrado,RA,Cerrado
+237,Cerrado,RA,Cerrado
+238,Cerrado,RA,Cerrado
+239,Cerrado,RA,Cerrado
+240,Cerrado,RA,Abierto | Filtrado
+241,Cerrado,RA,Cerrado
+242,Cerrado,RA,Cerrado
+243,Cerrado,RA,Cerrado
+244,Cerrado,RA,Cerrado
+245,Cerrado,RA,Cerrado
+246,Cerrado,RA,Cerrado
+247,Cerrado,RA,Cerrado
+248,Cerrado,RA,Cerrado
+249,Cerrado,RA,Cerrado
+250,Filtrado,none,Cerrado
+251,Cerrado,RA,Cerrado
+252,Cerrado,RA,Abierto | Filtrado
+253,Cerrado,RA,Cerrado
+254,Cerrado,RA,Abierto | Filtrado
+255,Cerrado,RA,Cerrado
+256,Cerrado,RA,Abierto | Filtrado
+257,Cerrado,RA,Cerrado
+258,Cerrado,RA,Cerrado
+259,Cerrado,RA,Cerrado
+260,Cerrado,RA,Cerrado
+261,Cerrado,RA,Cerrado
+262,Cerrado,RA,Cerrado
+263,Cerrado,RA,Cerrado
+264,Cerrado,RA,Abierto | Filtrado
+265,Cerrado,RA,Cerrado
+266,Cerrado,RA,Cerrado
+267,Cerrado,RA,Cerrado
+268,Cerrado,RA,Cerrado
+269,Cerrado,RA,Cerrado
+270,Cerrado,RA,Cerrado
+271,Cerrado,RA,Cerrado
+272,Cerrado,RA,Abierto | Filtrado
+273,Cerrado,RA,Cerrado
+274,Cerrado,RA,Cerrado
+275,Cerrado,RA,Cerrado
+276,Cerrado,RA,Cerrado
+277,Cerrado,RA,Cerrado
+278,Cerrado,RA,Cerrado
+279,Cerrado,RA,Abierto | Filtrado
+280,Cerrado,RA,Cerrado
+281,Cerrado,RA,Cerrado
+282,Filtrado,none,Abierto | Filtrado
+283,Cerrado,RA,Abierto | Filtrado
+284,Cerrado,RA,Cerrado
+285,Cerrado,RA,Cerrado
+286,Cerrado,RA,Cerrado
+287,Cerrado,RA,Cerrado
+288,Cerrado,RA,Cerrado
+289,Cerrado,RA,Cerrado
+290,Cerrado,RA,Abierto | Filtrado
+291,Cerrado,RA,Cerrado
+292,Cerrado,RA,Cerrado
+293,Cerrado,RA,Cerrado
+294,Cerrado,RA,Cerrado
+295,Cerrado,RA,Cerrado
+296,Filtrado,none,Cerrado
+297,Cerrado,RA,Cerrado
+298,Cerrado,RA,Cerrado
+299,Cerrado,RA,Abierto | Filtrado
+300,Cerrado,RA,Cerrado
+301,Cerrado,RA,Cerrado
+302,Cerrado,RA,Cerrado
+303,Cerrado,RA,Cerrado
+304,Cerrado,RA,Cerrado
+305,Cerrado,RA,Cerrado
+306,Cerrado,RA,Abierto | Filtrado
+307,Cerrado,RA,Cerrado
+308,Cerrado,RA,Cerrado
+309,Cerrado,RA,Cerrado
+310,Cerrado,RA,Cerrado
+311,Cerrado,RA,Cerrado
+312,Cerrado,RA,Abierto | Filtrado
+313,Cerrado,RA,Cerrado
+314,Cerrado,RA,Cerrado
+315,Cerrado,RA,Cerrado
+316,Cerrado,RA,Cerrado
+317,Cerrado,RA,Cerrado
+318,Cerrado,RA,Cerrado
+319,Cerrado,RA,Cerrado
+320,Cerrado,RA,Abierto | Filtrado
+321,Cerrado,RA,Cerrado
+322,Filtrado,none,Cerrado
+323,Cerrado,RA,Cerrado
+324,Cerrado,RA,Cerrado
+325,Cerrado,RA,Cerrado
+326,Cerrado,RA,Cerrado
+327,Cerrado,RA,Cerrado
+328,Cerrado,RA,Cerrado
+329,Cerrado,RA,Abierto | Filtrado
+330,Cerrado,RA,Cerrado
+331,Cerrado,RA,Cerrado
+332,Cerrado,RA,Cerrado
+333,Cerrado,RA,Cerrado
+334,Cerrado,RA,Cerrado
+335,Cerrado,RA,Cerrado
+336,Cerrado,RA,Cerrado
+337,Cerrado,RA,Abierto | Filtrado
+338,Cerrado,RA,Cerrado
+339,Cerrado,RA,Cerrado
+340,Cerrado,RA,Cerrado
+341,Cerrado,RA,Cerrado
+342,Cerrado,RA,Cerrado
+343,Cerrado,RA,Cerrado
+344,Cerrado,RA,Cerrado
+345,Cerrado,RA,Abierto | Filtrado
+346,Cerrado,RA,Cerrado
+347,Cerrado,RA,Cerrado
+348,Cerrado,RA,Cerrado
+349,Cerrado,RA,Cerrado
+350,Cerrado,RA,Cerrado
+351,Cerrado,RA,Cerrado
+352,Cerrado,RA,Cerrado
+353,Cerrado,RA,Cerrado
+354,Cerrado,RA,Abierto | Filtrado
+355,Cerrado,RA,Cerrado
+356,Cerrado,RA,Cerrado
+357,Cerrado,RA,Cerrado
+358,Cerrado,RA,Cerrado
+359,Cerrado,RA,Cerrado
+360,Cerrado,RA,Cerrado
+361,Cerrado,RA,Cerrado
+362,Cerrado,RA,Cerrado
+363,Cerrado,RA,Cerrado
+364,Cerrado,RA,Cerrado
+365,Cerrado,RA,Cerrado
+366,Cerrado,RA,Cerrado
+367,Filtrado,none,Cerrado
+368,Cerrado,RA,Cerrado
+369,Cerrado,RA,Cerrado
+370,Cerrado,RA,Cerrado
+371,Cerrado,RA,Cerrado
+372,Cerrado,RA,Cerrado
+373,Cerrado,RA,Cerrado
+374,Cerrado,RA,Cerrado
+375,Cerrado,RA,Cerrado
+376,Cerrado,RA,Cerrado
+377,Cerrado,RA,Abierto | Filtrado
+378,Cerrado,RA,Cerrado
+379,Cerrado,RA,Cerrado
+380,Cerrado,RA,Cerrado
+381,Filtrado,none,Cerrado
+382,Cerrado,RA,Cerrado
+383,Cerrado,RA,Cerrado
+384,Cerrado,RA,Cerrado
+385,Cerrado,RA,Cerrado
+386,Cerrado,RA,Cerrado
+387,Cerrado,RA,Cerrado
+388,Cerrado,RA,Cerrado
+389,Cerrado,RA,Cerrado
+390,Cerrado,RA,Cerrado
+391,Cerrado,RA,Abierto | Filtrado
+392,Cerrado,RA,Cerrado
+393,Cerrado,RA,Cerrado
+394,Cerrado,RA,Cerrado
+395,Cerrado,RA,Abierto | Filtrado
+396,Cerrado,RA,Cerrado
+397,Cerrado,RA,Cerrado
+398,Cerrado,RA,Cerrado
+399,Cerrado,RA,Cerrado
+400,Cerrado,RA,Cerrado
+401,Cerrado,RA,Cerrado
+402,Cerrado,RA,Abierto | Filtrado
+403,Cerrado,RA,Cerrado
+404,Filtrado,none,Cerrado
+405,Cerrado,RA,Cerrado
+406,Cerrado,RA,Cerrado
+407,Filtrado,none,Cerrado
+408,Cerrado,RA,Cerrado
+409,Cerrado,RA,Cerrado
+410,Cerrado,RA,Cerrado
+411,Cerrado,RA,Cerrado
+412,Cerrado,RA,Cerrado
+413,Cerrado,RA,Cerrado
+414,Cerrado,RA,Cerrado
+415,Cerrado,RA,Cerrado
+416,Cerrado,RA,Cerrado
+417,Cerrado,RA,Cerrado
+418,Cerrado,RA,Cerrado
+419,Cerrado,RA,Cerrado
+420,Cerrado,RA,Abierto | Filtrado
+421,Cerrado,RA,Cerrado
+422,Cerrado,RA,Cerrado
+423,Cerrado,RA,Cerrado
+424,Cerrado,RA,Cerrado
+425,Cerrado,RA,Cerrado
+426,Cerrado,RA,Cerrado
+427,Cerrado,RA,Cerrado
+428,Cerrado,RA,Cerrado
+429,Cerrado,RA,Abierto | Filtrado
+430,Filtrado,none,Cerrado
+431,Cerrado,RA,Cerrado
+432,Cerrado,RA,Cerrado
+433,Cerrado,RA,Cerrado
+434,Cerrado,RA,Cerrado
+435,Cerrado,RA,Cerrado
+436,Cerrado,RA,Cerrado
+437,Cerrado,RA,Abierto | Filtrado
+438,Cerrado,RA,Cerrado
+439,Cerrado,RA,Cerrado
+440,Cerrado,RA,Cerrado
+441,Cerrado,RA,Cerrado
+442,Cerrado,RA,Cerrado
+443,Cerrado,RA,Cerrado
+444,Cerrado,RA,Cerrado
+445,Cerrado,RA,Cerrado
+446,Cerrado,RA,Cerrado
+447,Cerrado,RA,Cerrado
+448,Cerrado,RA,Cerrado
+449,Cerrado,RA,Cerrado
+450,Cerrado,RA,Abierto | Filtrado
+451,Cerrado,RA,Cerrado
+452,Cerrado,RA,Cerrado
+453,Cerrado,RA,Cerrado
+454,Cerrado,RA,Cerrado
+455,Cerrado,RA,Cerrado
+456,Cerrado,RA,Cerrado
+457,Cerrado,RA,Cerrado
+458,Cerrado,RA,Cerrado
+459,Cerrado,RA,Cerrado
+460,Cerrado,RA,Cerrado
+461,Cerrado,RA,Abierto | Filtrado
+462,Cerrado,RA,Cerrado
+463,Cerrado,RA,Cerrado
+464,Cerrado,RA,Cerrado
+465,Cerrado,RA,Cerrado
+466,Cerrado,RA,Cerrado
+467,Cerrado,RA,Cerrado
+468,Cerrado,RA,Cerrado
+469,Cerrado,RA,Cerrado
+470,Cerrado,RA,Cerrado
+471,Cerrado,RA,Cerrado
+472,Cerrado,RA,Cerrado
+473,Cerrado,RA,Cerrado
+474,Cerrado,RA,Cerrado
+475,Cerrado,RA,Cerrado
+476,Cerrado,RA,Cerrado
+477,Cerrado,RA,Abierto | Filtrado
+478,Cerrado,RA,Cerrado
+479,Cerrado,RA,Cerrado
+480,Cerrado,RA,Cerrado
+481,Cerrado,RA,Cerrado
+482,Cerrado,RA,Cerrado
+483,Cerrado,RA,Cerrado
+484,Cerrado,RA,Cerrado
+485,Cerrado,RA,Cerrado
+486,Cerrado,RA,Cerrado
+487,Cerrado,RA,Cerrado
+488,Cerrado,RA,Abierto | Filtrado
+489,Cerrado,RA,Cerrado
+490,Cerrado,RA,Cerrado
+491,Cerrado,RA,Cerrado
+492,Cerrado,RA,Abierto | Filtrado
+493,Cerrado,RA,Cerrado
+494,Cerrado,RA,Cerrado
+495,Filtrado,none,Cerrado
+496,Cerrado,RA,Cerrado
+497,Cerrado,RA,Cerrado
+498,Cerrado,RA,Cerrado
+499,Cerrado,RA,Cerrado
+500,Cerrado,RA,Cerrado
+501,Cerrado,RA,Abierto | Filtrado
+502,Cerrado,RA,Cerrado
+503,Cerrado,RA,Cerrado
+504,Cerrado,RA,Cerrado
+505,Cerrado,RA,Cerrado
+506,Cerrado,RA,Cerrado
+507,Cerrado,RA,Cerrado
+508,Cerrado,RA,Cerrado
+509,Cerrado,RA,Cerrado
+510,Cerrado,RA,Cerrado
+511,Cerrado,RA,Cerrado
+512,Cerrado,RA,Cerrado
+513,Cerrado,RA,Abierto | Filtrado
+514,Cerrado,RA,Cerrado
+515,Cerrado,RA,Cerrado
+516,Cerrado,RA,Cerrado
+517,Cerrado,RA,Cerrado
+518,Cerrado,RA,Cerrado
+519,Cerrado,RA,Cerrado
+520,Cerrado,RA,Abierto | Filtrado
+521,Cerrado,RA,Cerrado
+522,Cerrado,RA,Cerrado
+523,Cerrado,RA,Cerrado
+524,Cerrado,RA,Cerrado
+525,Cerrado,RA,Cerrado
+526,Cerrado,RA,Cerrado
+527,Cerrado,RA,Cerrado
+528,Cerrado,RA,Abierto | Filtrado
+529,Cerrado,RA,Cerrado
+530,Cerrado,RA,Cerrado
+531,Cerrado,RA,Cerrado
+532,Cerrado,RA,Cerrado
+533,Cerrado,RA,Cerrado
+534,Cerrado,RA,Cerrado
+535,Cerrado,RA,Cerrado
+536,Cerrado,RA,Abierto | Filtrado
+537,Cerrado,RA,Cerrado
+538,Cerrado,RA,Cerrado
+539,Cerrado,RA,Cerrado
+540,Cerrado,RA,Cerrado
+541,Cerrado,RA,Cerrado
+542,Cerrado,RA,Cerrado
+543,Cerrado,RA,Cerrado
+544,Cerrado,RA,Cerrado
+545,Cerrado,RA,Cerrado
+546,Cerrado,RA,Cerrado
+547,Cerrado,RA,Cerrado
+548,Cerrado,RA,Cerrado
+549,Cerrado,RA,Abierto | Filtrado
+550,Cerrado,RA,Cerrado
+551,Cerrado,RA,Cerrado
+552,Cerrado,RA,Cerrado
+553,Cerrado,RA,Cerrado
+554,Cerrado,RA,Cerrado
+555,Cerrado,RA,Cerrado
+556,Cerrado,RA,Cerrado
+557,Cerrado,RA,Cerrado
+558,Cerrado,RA,Cerrado
+559,Cerrado,RA,Cerrado
+560,Cerrado,RA,Cerrado
+561,Cerrado,RA,Cerrado
+562,Filtrado,none,Cerrado
+563,Cerrado,RA,Cerrado
+564,Cerrado,RA,Cerrado
+565,Cerrado,RA,Cerrado
+566,Cerrado,RA,Cerrado
+567,Cerrado,RA,Abierto | Filtrado
+568,Cerrado,RA,Cerrado
+569,Cerrado,RA,Cerrado
+570,Cerrado,RA,Cerrado
+571,Cerrado,RA,Cerrado
+572,Cerrado,RA,Cerrado
+573,Cerrado,RA,Abierto | Filtrado
+574,Cerrado,RA,Cerrado
+575,Cerrado,RA,Cerrado
+576,Cerrado,RA,Cerrado
+577,Cerrado,RA,Cerrado
+578,Cerrado,RA,Cerrado
+579,Cerrado,RA,Cerrado
+580,Cerrado,RA,Cerrado
+581,Cerrado,RA,Cerrado
+582,Cerrado,RA,Abierto | Filtrado
+583,Cerrado,RA,Cerrado
+584,Cerrado,RA,Cerrado
+585,Cerrado,RA,Cerrado
+586,Cerrado,RA,Cerrado
+587,Cerrado,RA,Cerrado
+588,Cerrado,RA,Cerrado
+589,Cerrado,RA,Cerrado
+590,Cerrado,RA,Cerrado
+591,Cerrado,RA,Cerrado
+592,Cerrado,RA,Cerrado
+593,Cerrado,RA,Cerrado
+594,Cerrado,RA,Cerrado
+595,Cerrado,RA,Cerrado
+596,Cerrado,RA,Cerrado
+597,Cerrado,RA,Cerrado
+598,Cerrado,RA,Cerrado
+599,Cerrado,RA,Cerrado
+600,Cerrado,RA,Cerrado
+601,Cerrado,RA,Cerrado
+602,Cerrado,RA,Cerrado
+603,Cerrado,RA,Cerrado
+604,Filtrado,none,Cerrado
+605,Cerrado,RA,Cerrado
+606,Cerrado,RA,Cerrado
+607,Cerrado,RA,Cerrado
+608,Cerrado,RA,Cerrado
+609,Cerrado,RA,Cerrado
+610,Cerrado,RA,Abierto | Filtrado
+611,Cerrado,RA,Cerrado
+612,Cerrado,RA,Abierto | Filtrado
+613,Cerrado,RA,Cerrado
+614,Cerrado,RA,Cerrado
+615,Cerrado,RA,Cerrado
+616,Cerrado,RA,Cerrado
+617,Cerrado,RA,Cerrado
+618,Cerrado,RA,Cerrado
+619,Cerrado,RA,Cerrado
+620,Cerrado,RA,Cerrado
+621,Cerrado,RA,Cerrado
+622,Cerrado,RA,Cerrado
+623,Cerrado,RA,Abierto | Filtrado
+624,Cerrado,RA,Cerrado
+625,Cerrado,RA,Cerrado
+626,Cerrado,RA,Cerrado
+627,Filtrado,none,Cerrado
+628,Cerrado,RA,Cerrado
+629,Cerrado,RA,Cerrado
+630,Cerrado,RA,Cerrado
+631,Cerrado,RA,Abierto | Filtrado
+632,Cerrado,RA,Cerrado
+633,Filtrado,none,Cerrado
+634,Filtrado,none,Cerrado
+635,Cerrado,RA,Cerrado
+636,Cerrado,RA,Cerrado
+637,Cerrado,RA,Cerrado
+638,Cerrado,RA,Cerrado
+639,Cerrado,RA,Cerrado
+640,Cerrado,RA,Cerrado
+641,Cerrado,RA,Cerrado
+642,Cerrado,RA,Abierto | Filtrado
+643,Cerrado,RA,Cerrado
+644,Cerrado,RA,Cerrado
+645,Cerrado,RA,Cerrado
+646,Cerrado,RA,Abierto | Filtrado
+647,Cerrado,RA,Cerrado
+648,Cerrado,RA,Cerrado
+649,Cerrado,RA,Cerrado
+650,Cerrado,RA,Cerrado
+651,Cerrado,RA,Abierto | Filtrado
+652,Cerrado,RA,Cerrado
+653,Cerrado,RA,Cerrado
+654,Cerrado,RA,Cerrado
+655,Cerrado,RA,Cerrado
+656,Cerrado,RA,Abierto | Filtrado
+657,Cerrado,RA,Cerrado
+658,Cerrado,RA,Cerrado
+659,Cerrado,RA,Cerrado
+660,Cerrado,RA,Cerrado
+661,Cerrado,RA,Cerrado
+662,Cerrado,RA,Cerrado
+663,Filtrado,none,Cerrado
+664,Cerrado,RA,Cerrado
+665,Cerrado,RA,Cerrado
+666,Cerrado,RA,Cerrado
+667,Cerrado,RA,Abierto | Filtrado
+668,Cerrado,RA,Cerrado
+669,Filtrado,none,Cerrado
+670,Cerrado,RA,Cerrado
+671,Cerrado,RA,Cerrado
+672,Cerrado,RA,Cerrado
+673,Cerrado,RA,Cerrado
+674,Cerrado,RA,Cerrado
+675,Cerrado,RA,Cerrado
+676,Cerrado,RA,Abierto | Filtrado
+677,Cerrado,RA,Cerrado
+678,Cerrado,RA,Cerrado
+679,Cerrado,RA,Cerrado
+680,Cerrado,RA,Cerrado
+681,Cerrado,RA,Cerrado
+682,Cerrado,RA,Cerrado
+683,Cerrado,RA,Abierto | Filtrado
+684,Cerrado,RA,Cerrado
+685,Cerrado,RA,Cerrado
+686,Cerrado,RA,Cerrado
+687,Cerrado,RA,Cerrado
+688,Cerrado,RA,Cerrado
+689,Cerrado,RA,Cerrado
+690,Cerrado,RA,Cerrado
+691,Cerrado,RA,Cerrado
+692,Cerrado,RA,Cerrado
+693,Cerrado,RA,Cerrado
+694,Cerrado,RA,Abierto | Filtrado
+695,Cerrado,RA,Abierto | Filtrado
+696,Cerrado,RA,Cerrado
+697,Cerrado,RA,Cerrado
+698,Cerrado,RA,Cerrado
+699,Cerrado,RA,Cerrado
+700,Cerrado,RA,Cerrado
+701,Cerrado,RA,Cerrado
+702,Cerrado,RA,Abierto | Filtrado
+703,Cerrado,RA,Cerrado
+704,Cerrado,RA,Cerrado
+705,Cerrado,RA,Cerrado
+706,Filtrado,none,Cerrado
+707,Cerrado,RA,Cerrado
+708,Cerrado,RA,Cerrado
+709,Cerrado,RA,Cerrado
+710,Cerrado,RA,Cerrado
+711,Cerrado,RA,Cerrado
+712,Filtrado,none,Cerrado
+713,Cerrado,RA,Cerrado
+714,Cerrado,RA,Cerrado
+715,Cerrado,RA,Cerrado
+716,Cerrado,RA,Cerrado
+717,Cerrado,RA,Cerrado
+718,Cerrado,RA,Cerrado
+719,Cerrado,RA,Cerrado
+720,Cerrado,RA,Cerrado
+721,Cerrado,RA,Cerrado
+722,Cerrado,RA,Cerrado
+723,Cerrado,RA,Abierto | Filtrado
+724,Cerrado,RA,Cerrado
+725,Cerrado,RA,Cerrado
+726,Cerrado,RA,Cerrado
+727,Filtrado,none,Cerrado
+728,Cerrado,RA,Cerrado
+729,Cerrado,RA,Abierto | Filtrado
+730,Cerrado,RA,Cerrado
+731,Cerrado,RA,Cerrado
+732,Cerrado,RA,Cerrado
+733,Cerrado,RA,Cerrado
+734,Cerrado,RA,Cerrado
+735,Cerrado,RA,Cerrado
+736,Cerrado,RA,Cerrado
+737,Cerrado,RA,Cerrado
+738,Cerrado,RA,Cerrado
+739,Cerrado,RA,Cerrado
+740,Cerrado,RA,Cerrado
+741,Cerrado,RA,Cerrado
+742,Cerrado,RA,Cerrado
+743,Cerrado,RA,Cerrado
+744,Filtrado,none,Cerrado
+745,Cerrado,RA,Cerrado
+746,Cerrado,RA,Cerrado
+747,Cerrado,RA,Cerrado
+748,Cerrado,RA,Abierto | Filtrado
+749,Cerrado,RA,Abierto | Filtrado
+750,Cerrado,RA,Cerrado
+751,Cerrado,RA,Cerrado
+752,Cerrado,RA,Cerrado
+753,Cerrado,RA,Cerrado
+754,Cerrado,RA,Cerrado
+755,Cerrado,RA,Cerrado
+756,Cerrado,RA,Abierto | Filtrado
+757,Cerrado,RA,Cerrado
+758,Cerrado,RA,Cerrado
+759,Cerrado,RA,Cerrado
+760,Cerrado,RA,Cerrado
+761,Cerrado,RA,Cerrado
+762,Cerrado,RA,Cerrado
+763,Cerrado,RA,Cerrado
+764,Cerrado,RA,Cerrado
+765,Cerrado,RA,Cerrado
+766,Cerrado,RA,Cerrado
+767,Cerrado,RA,Cerrado
+768,Cerrado,RA,Abierto | Filtrado
+769,Cerrado,RA,Cerrado
+770,Cerrado,RA,Cerrado
+771,Cerrado,RA,Cerrado
+772,Cerrado,RA,Cerrado
+773,Cerrado,RA,Cerrado
+774,Cerrado,RA,Cerrado
+775,Cerrado,RA,Cerrado
+776,Cerrado,RA,Cerrado
+777,Cerrado,RA,Abierto | Filtrado
+778,Cerrado,RA,Cerrado
+779,Cerrado,RA,Cerrado
+780,Cerrado,RA,Cerrado
+781,Cerrado,RA,Cerrado
+782,Cerrado,RA,Cerrado
+783,Cerrado,RA,Cerrado
+784,Cerrado,RA,Cerrado
+785,Cerrado,RA,Abierto | Filtrado
+786,Cerrado,RA,Cerrado
+787,Cerrado,RA,Cerrado
+788,Cerrado,RA,Cerrado
+789,Cerrado,RA,Cerrado
+790,Cerrado,RA,Cerrado
+791,Filtrado,none,Cerrado
+792,Cerrado,RA,Cerrado
+793,Cerrado,RA,Cerrado
+794,Cerrado,RA,Abierto | Filtrado
+795,Cerrado,RA,Cerrado
+796,Cerrado,RA,Cerrado
+797,Cerrado,RA,Cerrado
+798,Cerrado,RA,Cerrado
+799,Cerrado,RA,Cerrado
+800,Cerrado,RA,Cerrado
+801,Cerrado,RA,Cerrado
+802,Cerrado,RA,Cerrado
+803,Cerrado,RA,Cerrado
+804,Cerrado,RA,Cerrado
+805,Cerrado,RA,Cerrado
+806,Cerrado,RA,Cerrado
+807,Cerrado,RA,Abierto | Filtrado
+808,Cerrado,RA,Cerrado
+809,Cerrado,RA,Cerrado
+810,Cerrado,RA,Cerrado
+811,Cerrado,RA,Cerrado
+812,Cerrado,RA,Cerrado
+813,Cerrado,RA,Abierto | Filtrado
+814,Cerrado,RA,Cerrado
+815,Cerrado,RA,Cerrado
+816,Cerrado,RA,Cerrado
+817,Cerrado,RA,Cerrado
+818,Cerrado,RA,Cerrado
+819,Cerrado,RA,Cerrado
+820,Cerrado,RA,Cerrado
+821,Cerrado,RA,Abierto | Filtrado
+822,Cerrado,RA,Cerrado
+823,Cerrado,RA,Cerrado
+824,Cerrado,RA,Cerrado
+825,Cerrado,RA,Cerrado
+826,Cerrado,RA,Cerrado
+827,Cerrado,RA,Cerrado
+828,Cerrado,RA,Abierto | Filtrado
+829,Cerrado,RA,Cerrado
+830,Cerrado,RA,Cerrado
+831,Cerrado,RA,Cerrado
+832,Cerrado,RA,Cerrado
+833,Cerrado,RA,Cerrado
+834,Cerrado,RA,Abierto | Filtrado
+835,Cerrado,RA,Cerrado
+836,Cerrado,RA,Cerrado
+837,Cerrado,RA,Cerrado
+838,Cerrado,RA,Cerrado
+839,Cerrado,RA,Cerrado
+840,Cerrado,RA,Abierto | Filtrado
+841,Cerrado,RA,Cerrado
+842,Cerrado,RA,Cerrado
+843,Cerrado,RA,Cerrado
+844,Cerrado,RA,Cerrado
+845,Cerrado,RA,Cerrado
+846,Cerrado,RA,Cerrado
+847,Cerrado,RA,Abierto | Filtrado
+848,Cerrado,RA,Cerrado
+849,Cerrado,RA,Cerrado
+850,Cerrado,RA,Cerrado
+851,Cerrado,RA,Cerrado
+852,Cerrado,RA,Cerrado
+853,Cerrado,RA,Cerrado
+854,Cerrado,RA,Abierto | Filtrado
+855,Cerrado,RA,Cerrado
+856,Cerrado,RA,Cerrado
+857,Cerrado,RA,Cerrado
+858,Cerrado,RA,Cerrado
+859,Cerrado,RA,Cerrado
+860,Cerrado,RA,Cerrado
+861,Cerrado,RA,Cerrado
+862,Cerrado,RA,Abierto | Filtrado
+863,Cerrado,RA,Cerrado
+864,Cerrado,RA,Cerrado
+865,Cerrado,RA,Cerrado
+866,Cerrado,RA,Cerrado
+867,Cerrado,RA,Cerrado
+868,Cerrado,RA,Cerrado
+869,Cerrado,RA,Cerrado
+870,Cerrado,RA,Abierto | Filtrado
+871,Cerrado,RA,Cerrado
+872,Cerrado,RA,Cerrado
+873,Cerrado,RA,Cerrado
+874,Cerrado,RA,Cerrado
+875,Cerrado,RA,Cerrado
+876,Cerrado,RA,Cerrado
+877,Cerrado,RA,Cerrado
+878,Cerrado,RA,Abierto | Filtrado
+879,Cerrado,RA,Cerrado
+880,Cerrado,RA,Cerrado
+881,Cerrado,RA,Cerrado
+882,Cerrado,RA,Cerrado
+883,Cerrado,RA,Cerrado
+884,Filtrado,none,Cerrado
+885,Cerrado,RA,Cerrado
+886,Cerrado,RA,Cerrado
+887,Cerrado,RA,Abierto | Filtrado
+888,Cerrado,RA,Cerrado
+889,Cerrado,RA,Cerrado
+890,Cerrado,RA,Cerrado
+891,Cerrado,RA,Cerrado
+892,Cerrado,RA,Cerrado
+893,Cerrado,RA,Cerrado
+894,Cerrado,RA,Abierto | Filtrado
+895,Filtrado,none,Cerrado
+896,Filtrado,none,Cerrado
+897,Cerrado,RA,Cerrado
+898,Cerrado,RA,Cerrado
+899,Cerrado,RA,Cerrado
+900,Cerrado,RA,Cerrado
+901,Cerrado,RA,Cerrado
+902,Cerrado,RA,Cerrado
+903,Cerrado,RA,Cerrado
+904,Cerrado,RA,Cerrado
+905,Cerrado,RA,Cerrado
+906,Cerrado,RA,Cerrado
+907,Filtrado,none,Cerrado
+908,Cerrado,RA,Cerrado
+909,Cerrado,RA,Cerrado
+910,Cerrado,RA,Cerrado
+911,Filtrado,none,Cerrado
+912,Cerrado,RA,Cerrado
+913,Cerrado,RA,Abierto | Filtrado
+914,Cerrado,RA,Cerrado
+915,Cerrado,RA,Cerrado
+916,Cerrado,RA,Cerrado
+917,Cerrado,RA,Cerrado
+918,Cerrado,RA,Cerrado
+919,Cerrado,RA,Cerrado
+920,Cerrado,RA,Cerrado
+921,Cerrado,RA,Cerrado
+922,Cerrado,RA,Cerrado
+923,Cerrado,RA,Cerrado
+924,Cerrado,RA,Cerrado
+925,Cerrado,RA,Cerrado
+926,Cerrado,RA,Abierto | Filtrado
+927,Cerrado,RA,Cerrado
+928,Filtrado,none,Cerrado
+929,Cerrado,RA,Cerrado
+930,Cerrado,RA,Cerrado
+931,Cerrado,RA,Cerrado
+932,Cerrado,RA,Cerrado
+933,Cerrado,RA,Cerrado
+934,Cerrado,RA,Cerrado
+935,Cerrado,RA,Cerrado
+936,Cerrado,RA,Cerrado
+937,Filtrado,none,Cerrado
+938,Filtrado,none,Cerrado
+939,Filtrado,none,Cerrado
+940,Filtrado,none,Cerrado
+941,Cerrado,RA,Cerrado
+942,Cerrado,RA,Cerrado
+943,Cerrado,RA,Cerrado
+944,Cerrado,RA,Cerrado
+945,Cerrado,RA,Abierto | Filtrado
+946,Cerrado,RA,Cerrado
+947,Cerrado,RA,Cerrado
+948,Cerrado,RA,Cerrado
+949,Cerrado,RA,Cerrado
+950,Cerrado,RA,Cerrado
+951,Cerrado,RA,Cerrado
+952,Cerrado,RA,Cerrado
+953,Cerrado,RA,Cerrado
+954,Cerrado,RA,Cerrado
+955,Cerrado,RA,Cerrado
+956,Cerrado,RA,Cerrado
+957,Cerrado,RA,Cerrado
+958,Cerrado,RA,Cerrado
+959,Cerrado,RA,Cerrado
+960,Cerrado,RA,Cerrado
+961,Cerrado,RA,Cerrado
+962,Filtrado,none,Cerrado
+963,Cerrado,RA,Cerrado
+964,Cerrado,RA,Cerrado
+965,Cerrado,RA,Cerrado
+966,Cerrado,RA,Cerrado
+967,Cerrado,RA,Cerrado
+968,Cerrado,RA,Cerrado
+969,Cerrado,RA,Abierto | Filtrado
+970,Cerrado,RA,Cerrado
+971,Cerrado,RA,Cerrado
+972,Cerrado,RA,Cerrado
+973,Cerrado,RA,Cerrado
+974,Cerrado,RA,Cerrado
+975,Cerrado,RA,Cerrado
+976,Cerrado,RA,Cerrado
+977,Cerrado,RA,Cerrado
+978,Cerrado,RA,Cerrado
+979,Cerrado,RA,Cerrado
+980,Cerrado,RA,Cerrado
+981,Cerrado,RA,Abierto | Filtrado
+982,Cerrado,RA,Cerrado
+983,Cerrado,RA,Cerrado
+984,Cerrado,RA,Cerrado
+985,Cerrado,RA,Cerrado
+986,Cerrado,RA,Cerrado
+987,Cerrado,RA,Cerrado
+988,Cerrado,RA,Cerrado
+989,Cerrado,RA,Cerrado
+990,Cerrado,RA,Cerrado
+991,Cerrado,RA,Cerrado
+992,Cerrado,RA,Cerrado
+993,Cerrado,RA,Abierto | Filtrado
+994,Cerrado,RA,Cerrado
+995,Cerrado,RA,Cerrado
+996,Cerrado,RA,Cerrado
+997,Cerrado,RA,Cerrado
+998,Cerrado,RA,Cerrado
+999,Cerrado,RA,Cerrado
+1000,Cerrado,RA,Cerrado
+1001,Cerrado,RA,Cerrado
+1002,Cerrado,RA,Cerrado
+1003,Cerrado,RA,Abierto | Filtrado
+1004,Cerrado,RA,Cerrado
+1005,Cerrado,RA,Cerrado
+1006,Cerrado,RA,Abierto | Filtrado
+1007,Filtrado,none,Cerrado
+1008,Cerrado,RA,Cerrado
+1009,Cerrado,RA,Cerrado
+1010,Cerrado,RA,Cerrado
+1011,Cerrado,RA,Cerrado
+1012,Cerrado,RA,Abierto | Filtrado
+1013,Cerrado,RA,Cerrado
+1014,Cerrado,RA,Cerrado
+1015,Cerrado,RA,Cerrado
+1016,Cerrado,RA,Cerrado
+1017,Cerrado,RA,Cerrado
+1018,Cerrado,RA,Cerrado
+1019,Cerrado,RA,Cerrado
+1020,Cerrado,RA,Cerrado
+1021,Cerrado,RA,Cerrado
+1022,Cerrado,RA,Cerrado
+1023,Cerrado,RA,Cerrado
+1024,Cerrado,RA,Cerrado

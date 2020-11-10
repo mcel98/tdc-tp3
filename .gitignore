@@ -1,4 +1,5 @@
 scanned-responses-*.csv
 .ipynb_checkpoints
 .idea
+.DS_Store
 
