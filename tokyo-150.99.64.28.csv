@@ -177,7 +177,6 @@ port,TCP,TCPflag,UDP
 176,Filtrado,none,Cerrado
 177,Filtrado,none,Cerrado
 178,Filtrado,none,Cerrado
-port,TCP,TCPflag,UDP
 179,CHECK,none,Cerrado
 180,Filtrado,none,Cerrado
 181,Filtrado,none,Cerrado
